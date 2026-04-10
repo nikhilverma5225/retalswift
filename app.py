@@ -5,7 +5,7 @@ import pyodbc
 app = Flask(__name__)
 
 # This name must match the one you set in Azure Environment Variables
-conn_str = os.environ.get('AZURE_SQL_CONNECTIONSTRING')
+conn_str = os.environ.get('Nikhil')
 
 @app.route('/')
 def home():
